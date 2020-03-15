@@ -5,7 +5,7 @@ import Planet from './Planet'
 const Main = ({planets}) =>
     <main>
       <Switch>
-        {/* <Redirect from='/' to="/neptune" /> */}
+        <Redirect exact from='/' to="/neptune" />
         {planets.map((planet, i) =>
           <Route
             path={'/' + planet.name}
