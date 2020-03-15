@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Page3() {
+function Planet({planet}) {
   return (
     <div className="page">
-      page 3
+      {planet.name}
     </div>
   );
 }
 
-export default Page3;
+export default Planet;
